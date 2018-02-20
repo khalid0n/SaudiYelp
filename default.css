@@ -1,0 +1,376 @@
+ input[type="submit"], input[type="button"] {
+	width: 150px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#login input[type="text"],#login input[type="password"], #login select {
+	width: 200px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 30px;
+}
+
+#search input[type="text"],#search input[type="password"],#search input[type="date"],#search input[type="email"]
+	{
+	width: 230px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 25px;
+}
+
+#search select {
+	width: 200px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 25px;
+}
+
+input[type="text"],input[type="password"],input[type="date"],input[type="email"],input[type="url"], input[type="number"]
+	{
+	width: 350px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 30px;
+}
+
+select {
+	width: 355px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 30px;
+}
+
+textarea {
+	width: 348px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+body {
+	background-color: #dadada;
+	color: #000305;
+	font-size: 100%;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode',
+		'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.body {
+	clear: both;
+	margin: 0 auto;
+	width: 85%;
+}
+
+/*
+========= Headings ========*/
+h2 {
+	font-size: 1.571em
+} /* 22px */
+h3 {
+	font-size: 1.429em
+} /* 20px */
+h4 {
+	font-size: 1.286em
+} /* 18px */
+h5 {
+	font-size: 1.143em
+} /* 16px */
+h6 {
+	font-size: 1em
+} /* 14px */
+h2,h3,h4,h5,h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+/* ======= Anchor style ====== 
+ */
+a {
+	outline: 0;
+}
+
+a img {
+	border: 0px;
+	text-decoration: none;
+}
+
+a:link,a:visited {
+	color: #CF5C3F;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover,a:active {
+	
+	color: #800000;
+	text-decoration: none;
+}
+
+/* ===== Main Navigation =====  */
+.mainHeader nav {
+	background: #ff0000;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link,.mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+
+.mainHeader nav a:hover,.mainHeader nav a:active,.mainHeader nav .active a:link,.mainHeader nav .active a:visited
+	{
+	/* background: #CF5C3F; */
+	color: #fff;
+	text-shadow: none !important;
+}
+
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader img {
+	width: 100%;
+	height: 200px;
+	margin: 1% 0;
+}
+
+/*======= Content Area ====== */
+.mainContent {
+	overflow: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-bottom: 3%;
+	height: auto;
+}
+
+.content {
+	width: 75%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/*  ======== Sidebar ==========  */
+.top-sidebar {
+	width: 17%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #FFF;
+	padding: 2% 3%;
+	margin-bottom: 2%;
+}
+
+/*  ========= Footer =========== */
+
+/*  ====== Media Queries ======  */
+@media only screen and (min-width : 150px) and (max-width : 780px) {
+	.body {
+		clear: both;
+		margin: 0 auto;
+		width: 90%;
+		font-size: 90%;
+	}
+	.mainHeader nav {
+		background: #666;
+		font-size: 1.143em;
+		height: 160px;
+		line-height: 30px;
+		margin-bottom: 0;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	.mainHeader nav ul {
+		list-style: none;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	.mainHeader nav li {
+		margin-left: 0 auto;
+		width: 100%;
+	}
+	.mainHeader nav a:link,.mainHeader nav a:visited {
+		color: #FFF;
+		display: block;
+		height: 30px;
+		padding: 5px 0;
+		text-decoration: none;
+	}
+	.mainHeader nav a:active,.mainHeader nav .active a:link,.mainHeader nav .active a:visited
+		{
+		background: #CF5C3F;
+		color: #fff;
+		text-shadow: none !important;
+	}
+	.mainHeader nav li a {
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	.mainHeader img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 3%;
+	}
+	.mainContent {
+		overflow: hidden;
+		line-height: 25px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin-top: 4%;
+		margin-bottom: 2%;
+	}
+	.topcontent {
+		background-color: #FFF;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 2% 5%;
+		margin-bottom: 4%;
+	}
+	.content {
+		width: 100%;
+		float: left;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	.top-sidebar {
+		width: 100%;
+		float: left;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		background-color: #FFF;
+		margin-top: 4%;
+		margin-left: 0;
+		padding: 0 7%;
+		margin-bottom: 0;
+	}
+	.top-sidebar p {
+		width: 90%;
+	}
+	.mainFooter {
+		width: 100%;
+		float: left;
+		margin: 2% 0;
+		padding-left: 0;
+		background-color: #666;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		color: #FFF;
+	}
+	.mainFooter p {
+		width: 86%;
+		margin: 2% auto;
+	}
+}
+/*===========login============*/
+.login {
+	margin: 20px auto;
+	width: 150px;
+	padding: 30px 25px;
+	background: white;
+	border: 1px solid #c4c4c4;
+}
+
+.login-input {
+	width: 140px;
+	height: 50px;
+	margin-bottom: 25px;
+	padding-left: 10px;
+	font-size: 15px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.login-input:focus {
+	border-color: #6e8095;
+	outline: none;
+}
+
+.login-button {
+	width: 86%;
+	height: 50px;
+	padding: 0;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: #f0776c;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.login-lost {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.login-lost a {
+	color: #666;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+#footer {
+	background: #ff0000;
+	font-size: 1.143em;
+	color: #fff;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
